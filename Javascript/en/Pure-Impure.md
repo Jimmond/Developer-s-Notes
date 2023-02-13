@@ -19,7 +19,7 @@ function add(a, b) {
 ```
 This function only depends on its arguments `a` and `b` and has no side effects, so it will always produce the same result for the same arguments.
 
-Function *impura*:
+Function *impure*:
 
 ```javascript
 let counter = 0;
