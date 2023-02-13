@@ -1,8 +1,8 @@
-# Closure in Javascript
+# Closure in JavaScript
 
-Un closure en JavaScript es una función que se "recuerda" del entorno en el que fue creada. En otras palabras, un closure es una función que retiene el acceso a las variables del ámbito externo una vez que la función ha sido invocada. Esto permite a las funciones recordar y acceder a su entorno incluso después de que se han ejecutado.
+A closure in JavaScript is a function that "remembers" the environment in which it was created. In other words, a closure is a function that retains access to variables in the outer scope once the function has been invoked. This allows functions to remember and access their environment even after they have been executed.
 
-Un ejemplo típico de un closure en JavaScript es una función que retorna otra función, como se muestra a continuación:
+A typical example of a closure in JavaScript is a function that returns another function, as shown below:
 
 ```javascript
 function outerFunction(x) {
@@ -15,6 +15,6 @@ const addFive = outerFunction(5);
 console.log(addFive(3)); // 8
 
 ```
-En este ejemplo, `outerFunction` retorna una función anónima que se guarda en la variable `addFive`. Cuando se invoca `addFive`, esta función tiene acceso al valor de `x` que se pasó a `outerFunction` inicialmente. Por lo tanto, `addFive(3)` devuelve 8.
+In this example, `outerFunction` returns an anonymous function that is stored in the `addFive` variable. When `addFive` is invoked, this function has access to the value of `x` that was passed to `outerFunction` initially. Therefore, `addFive(3)` returns 8.
 
-Los closures son una herramienta poderosa en JavaScript, ya que permiten crear funciones con estado y son útiles para crear funciones que mantienen el contexto y la lógica compartidos. Además, los closures se utilizan comúnmente en la programación funcional para crear funciones de orden superior y para ocultar variables y funciones privadas en el contexto de un objeto.
+Closures are a powerful tool in JavaScript, as they allow you to create stateful functions and are useful for creating functions that maintain shared context and logic. In addition, closures are commonly used in functional programming to create higher-order functions and to hide private variables and functions in the context of an object.
