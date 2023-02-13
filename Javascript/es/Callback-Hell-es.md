@@ -1,0 +1,7 @@
+# ¿Que es el Callback Hell?
+
+El "Callback Hell" es un término que se refiere a la situación en la que un programador anida demasiados callbacks uno dentro de otro, lo que resulta en un código difícil de leer y mantener. Este problema se produce porque el código asíncrono basado en callbacks se vuelve rápidamente complicado y difícil de seguir a medida que se añaden más y más callbacks.
+
+El "Callback Hell" suele manifestarse como un bloque de código con muchos niveles de anidación de funciones, lo que dificulta la lectura y el mantenimiento del código. Esto se debe a que los callbacks pueden ser difíciles de rastrear y entender, especialmente cuando se ejecutan en un orden determinado y son responsables de la gestión de errores y otras tareas complejas.
+
+Para resolver este problema, es recomendable utilizar otras técnicas de programación asíncrona, como promesas o async/await, que permiten escribir código asíncrono de manera más legible y fácil de mantener. Sin embargo, es importante tener en cuenta que aunque estas técnicas resuelven el problema de la anidación de callbacks, aún requieren una comprensión profunda de cómo funciona el asincronismo en JavaScript para ser utilizadas de manera efectiva.
