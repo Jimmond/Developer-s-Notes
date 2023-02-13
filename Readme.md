@@ -1,4 +1,4 @@
-# Developer's Notes
+# Developer's Notes By Jimmond
 
 This repository is a blog of notes on what I learn day by day. Concepts, utilities, tricks, etc. I hope you find what you are looking for, clone it to your liking, and use it in your interviews and day-to-day.
 _________________________________________________________________________________________________________________________________________________________________________
