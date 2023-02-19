@@ -12,7 +12,7 @@ ACID es un acrónimo que se utiliza para describir las propiedades de una transa
 
 Las propiedades ACID son importantes para garantizar la integridad y la seguridad de los datos en una base de datos relacional. Los sistemas de bases de datos, como SQL Server, implementan las propiedades ACID mediante el uso de técnicas de registro, bloqueo y control de concurrencia.
 
-## otros principios
+## Otros principios
 
 Además de las propiedades ACID, hay otros principios que son importantes en SQL y en la gestión de bases de datos en general. Algunos de estos principios incluyen:
 
